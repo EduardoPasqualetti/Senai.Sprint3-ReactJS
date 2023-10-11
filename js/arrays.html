@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // Array criado para frutas
+        let frutas = ['banana', 'maca', 'morango']
+
+        //Exibir a Array
+        console.log(frutas)
+        // Quantidade de objetos dentro da Array
+        console.log(`Quantidade de frutas: ${frutas.length}`)
+
+        // Adicionar objetos no Array
+        frutas.push('mamao')
+        frutas.push('uva')
+        frutas.push('melao')
+
+        console.log(`Quantidade de frutas: ${frutas.length}`)
+
+        //Ordena os valores do Array
+        frutas.sort()
+
+        console.log(frutas)
+
+        // Listar as frutas usando o for
+        // for (let index = 0; index < frutas.length; index++) {
+        //     console.log(`Fruta${index + 1} ${frutas[index]}`)
+            
+        // }
+
+
+
+        // Usando o Foreach
+        // frutas.forEach(function(fruta, i) {
+        //     console.log(`Fruta ${i + 1} ${fruta}`)
+            
+        // })
+
+        let prateleira = [
+            "Cerveja",
+            "Coca-Cola",
+            "Agua",
+            "Gatorade",
+        ]
+
+        let bebida = prateleira[7]
+
+        switch (bebida) {
+            case "Cerveja": 
+                console.log("Achei sua Cerveja!")
+                break
+            case "Coca-Cola":
+                console.log("Achei sua Coca-Cola!")
+                break
+            case "Agua":
+                console.log("Achei sua Agua!")    
+                break
+            case "Gatorade":
+                console.log("Achei seu Gatorade")
+                break
+            default: 
+                console.log(`Nao temos essa bebida: (${bebida})`)
+
+        }
+
+
+    </script>
+</body>
+</html> 
