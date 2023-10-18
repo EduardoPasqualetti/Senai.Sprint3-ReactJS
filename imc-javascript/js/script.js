@@ -20,9 +20,20 @@ function calcular(e) {
 
     const txtSituacao = retornaSituacao(imc)
 
+    const pessoa = { nome, altura, peso, imc, situacao: txtSituacao }
 
-    let pessoa = { nome, altura, peso, imc, situacao: txtSituacao }
+    const dt = new Date(); //retorna um objeto date
+    //retorna a data de 1 a 31
+    const dia = dt.getDate() < 10 ? `0${dt.getDate()}` : dt.getDate();
+    // retorna de 0 a 11
+    const mes = dt.getMonth() + 1;
+    //retorna o mes com 4 digitos yyyy
+    const ano = dt.getFullYear();
 
+    const dtCadastro = dia + mes + ano;
+
+    pessoa.dtCad = dtCadastro;
+    
     arrPessoas.push(pessoa)
 
     ListarPessoas()
