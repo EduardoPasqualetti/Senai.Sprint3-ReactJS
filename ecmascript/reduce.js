@@ -24,4 +24,17 @@ let comissao = produtos.reduce((vlInicial, prod) => {
     return vlInicial + (prod.preco * 0,05)
 },0)
 
-console.log(`comissao deste mes: RS${comissao}`)
+let nome = "Eduardo Pasqualetti"
+
+console.log(`comissao de ${nome} deste mes: RS${comissao}`)
+
+
+
+
+const objVendedor = {
+    vendedor,
+    comissao,
+    idade: 40
+}
+
+console.log(objVendedor)
