@@ -1,9 +1,39 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Aprendendo a utilizar o Json Server",
+      "author": "Eduardo",
+      "id": 3
+    },
+    {
+      "title": "Ensino sobre a funcionalidade do Json",
+      "author": "SENAI",
+      "id": 4
+    },
+    {
+      "title": "Simulacao de uma Api",
+      "author": "Desenvolvedores",
+      "id": 5
+    },
+    {
+      "title": "fshvvsf",
+      "author": "vsgwwwwww",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
