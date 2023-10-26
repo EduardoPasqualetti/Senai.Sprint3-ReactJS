@@ -51,11 +51,11 @@ async function cadastrar(e) {
 // }
 
 async function buscarEndereco(cep) {
-    //const resource = `/${cep}/json`
+    const resource = `/${cep}/json`
 
     try {
-        //const promisse = await fetch(urlViaCep+resource)
-        const promisse = await fetch(`${urlCepProfessor}/${cep}`)
+        const promisse = await fetch(urlViaCep+resource)
+        // const promisse = await fetch(`${urlCepProfessor}/${cep}`)
 
         const endereco = await promisse.json()
         console.log(`CEP: ${cep}`)

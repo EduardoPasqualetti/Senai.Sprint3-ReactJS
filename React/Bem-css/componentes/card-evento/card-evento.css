@@ -1,0 +1,39 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.card-evento {
+    border: 3px solid #821B47;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card-title {
+
+font-size: 20px;
+}
+
+.card-evento__description {
+    font-size: 19px;
+    width: 192px;
+    text-align: center;
+}
+
+.card-evento__link {
+    color: #B51D44;
+    font-size: 20px;
+}
+
+.card-evento__link--disable {
+    color: rgb(61, 58, 58);
+}
